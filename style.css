@@ -1,27 +1,19 @@
+*{
+    left: 10px;
+    right: 10px;
+}
 .content{
     position: absolute;
     float: left;
     width:100%;
     height: 100%;
-    top: 0px;
-    left: 0px;
-}
-.heading{
-    position: relative;
-    width: 200px;
-    height: 80px;
-    text-align: center;
-    top: 40px;
-    font-size: 35px;
-    font-family: cursive;
-    font-weight: 1000;
-    margin: auto;
     
 }
 p{
     padding: 14px 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
+
 }
 #p1{
     position: relative;
@@ -31,6 +23,7 @@ p{
     float: left;
     align-items: center;
     margin: 70px 10px;
+    overflow: scroll;
 }
 #p2{
     position: relative;
@@ -40,6 +33,7 @@ p{
     margin: 70px 10px;
     float: left;
     align-items: center;
+    overflow: scroll;
 }
 #p3{
     position: relative;
@@ -49,7 +43,7 @@ p{
     float: left;
     align-items: center;
     margin: 70px 10px;
-
+    overflow: scroll;
 }
 .he1{
     position: relative;
@@ -87,7 +81,46 @@ p{
     text-align: center;
 
 }
+.center{
+    position: relative;
+    padding: 0% 50% 0% 50% ;
+    top: 0em;
+    right: 0em;
+    width: 65px;
+    box-sizing: border-box;
+    font-family: cursive;
+    clear: both;
+    text-align: center;
+}
 @media (min-width: 992px){
+.col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 30.333333%;
+    max-width: 30.333333%;
+}}
+@media (min-width: 768px){
+.col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 96%;
+}}
+@media (min-width: 768px){
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 47%;
+}}
+.navbar-toggle{
+    width: 50px;
+    height: 50px;
+    line-height: 20px;
+    background: rgb(233, 227, 227);
+}
+li:hover{
+    background: rgb(182, 175, 175);
+    text-decoration: underline;
+}
+/* @media (min-width: 992px){
     #p1{
         width: 30%;
     }
@@ -125,4 +158,4 @@ p{
         width: 100%;
     }
 
-}
+} */
