@@ -2,39 +2,79 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lect_2_soln</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="style.css">
+  <title>lect_3_soln</title>
+  <script src="bootstrap-4.5.0-dist/js/jquery-3.5.1.min.js"></script>
+  <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+  <script src="bootstrap-4.5.0-dist/js/jquery-3.5.1.slim.min.js"></script>
 </head>
 
 <body>
-    <div class="content">
-        <div class="heading">OUR MENU</div>
-
-        <div id="p1">
-            <div class="he1">
-                Chicken</div>
-            <p>
-                Lorem, ipsum dolor sit, consequuntur iste soluta ratione dolore, in, nisi minima similique.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+  <nav class="navbar navbar-default">
 
 
-        </div>
-        <div id="p2">
-            <div class="he2">Beef</div>
+    <div class="container-fluid">
+      <div class="navbar-header">
 
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nam vitae reiciendis. Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.</p>
-
-        </div>
-        <div id="p3">
-            <div class="he3">Sushi</div>
-            <p>
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt earum nobis,
-                nostrum culpa necessitatibus iusto! Rerum commodi.</p>
-        </div>
+        <div><a class="navbar-brand" href="index.html">Food LCC</a></div>
+      </div>
+      <button type="button" class="navbar-toggle collapsed d-lg-none" data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#" target="blank">Chicken</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="#">curry</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link " href="#">Sushi</a>
+          </li>
+        </ul>
+      </div>
+      </button>
     </div>
+  </nav>
+  <section>
+
+    <div class="content">
+      <div class="text-center">OUR MENU</div>
+
+      <div id="p1" class="col-lg-4 col-md-6 col-xs-12">
+        <div><span class="center">Chicken</span></div>
+        <p>
+          Lorem, ipsum dolor sit, consequuntur iste soluta ratione dolore, in, nisi minima similique.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+
+      </div>
+      <div id="p2" class="col-lg-4 col-md-6 col-xs-12">
+        <div><span class="center">Beef</span></div>
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nam vitae reiciendis. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit.</p>
+
+      </div>
+      <div id="p3" class="col-lg-4 col-md-12 col-xs-12">
+        <div><span class="center">Sushi</span></div>
+        <p>
+          Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt earum nobis,
+          nostrum culpa necessitatibus iusto! Rerum commodi.</p>
+      </div>
+    </div>
+  </section>
 </body>
+
 
 </html>
